@@ -4,14 +4,14 @@
 }
 
 html{
-    background-color: #fffcfcf6;
+    background-color: #f3f3f3;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
 
 body{
     background-color: #ffffff;
-    width: 1200px;
+    width: 1300px;
     max-width: 100%;
     margin: auto;
     box-shadow: 0.5rem 0.5rem 0.5rem #000000, -0.1rem -0rem -0.1rem #000000;
@@ -24,47 +24,50 @@ body{
 /* section top-banner start */
 
 
-
 #top-banner-section{
-    display: flex;
     background-image: url(Image/top-banner.png);
+}
+
+.same{
+    display: flex;    
     background-repeat: no-repeat;    
 }
 
-#top-banner-section .picture{
+.same .picture{
     width: 50%;
     padding: 45px;
 }
 
-#top-banner-section .picture img{
+.same .picture img{
     height: auto;
     width: 100%;
 }
 
-#top-banner-section .word{
+.same .word{
     width: 50%;
     padding: 70px;
 }
 
-#top-banner-section .word h1{
+.same .word h1{
     font-size: 50px;
     font-weight: bolder;
     line-height: 70px;
 }
 
-#top-banner-section .word h2{
+.same .word h2{
     margin-top: 40px;
     line-height: 55px;
 }
 
-#top-banner-section .word p{
+.same .word p{
     font-size: 18px;
     text-align: justify;
 }
 
-#top-banner-section .word button{
+.same .word button{
     margin: 30px 0;
-    font-size: 18px;
+    font-size: 16px;
+    opacity: 0.9;
     font-weight: bold;
     padding: 15px 30px;
     border: none;
@@ -75,9 +78,84 @@ body{
     transition: 1s;
 }
 
-#top-banner-section .word button:hover{
+.same .word button:hover{
     transform: scale(1.1);
 }
 
 /* section top-banner end */
+
+
+
+
+/* section dream start */
+
+#dream-section{
+    background-image: url(Image/dream-bg.png);
+    background-position: right bottom;   
+}
+
+/* section dream end */
+
+
+
+/* section experience start */
+
+
+#experience-section{
+    background-image: url(Image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 300px;
+    padding: 60px;
+}
+
+#experience-section h1{
+    font-size: 50px; 
+}
+
+#experience-section div h1{
+    font-size: 35px;
+    line-height: 20px;
+}
+
+#experience-section h2{
+    font-size: 21px;
+    color: orange;    
+}
+
+#experience-section .div1{
+    box-shadow: 10px 10px 40px gray;
+    width: 43%;
+    margin-right: 2%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, yellow);
+    border-image-slice: 1;
+}
+
+#experience-section .div2{
+    box-shadow: 10px 10px 40px gray;
+    width: 43%;
+    margin-left: 2%; 
+    margin-top: 20px;
+    padding: 20px; 
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+
+/* section experience end */
+
+
+footer{
+    text-align: center;
+    margin: 30px;
+}
+
+footer p{
+    margin: 10px;
+}
 
