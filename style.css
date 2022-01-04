@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #fffcfcf6;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0.5rem 0.5rem 0.5rem #000000, -0.1rem -0rem -0.1rem #000000;
+}
+
+
+
+
+
+/* section top-banner start */
+
+
+
+#top-banner-section{
+    display: flex;
+    background-image: url(Image/top-banner.png);
+    background-repeat: no-repeat;    
+}
+
+#top-banner-section .picture{
+    width: 50%;
+    padding: 45px;
+}
+
+#top-banner-section .picture img{
+    height: auto;
+    width: 100%;
+}
+
+#top-banner-section .word{
+    width: 50%;
+    padding: 70px;
+}
+
+#top-banner-section .word h1{
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 70px;
+}
+
+#top-banner-section .word h2{
+    margin-top: 40px;
+    line-height: 55px;
+}
+
+#top-banner-section .word p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+#top-banner-section .word button{
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#top-banner-section .word button:hover{
+    transform: scale(1.1);
+}
+
+/* section top-banner end */
+
